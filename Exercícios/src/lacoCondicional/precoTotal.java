@@ -32,9 +32,6 @@ public class precoTotal {
 			valorTotal = qtde * preco;
 			System.out.println("\nO valor total é "+valorTotal);
 			break;
-		}
-		
-		switch(opcao) {
 		
 		case 2:
 			preco = 15.00;
