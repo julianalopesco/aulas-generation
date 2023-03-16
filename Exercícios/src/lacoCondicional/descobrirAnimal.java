@@ -1,3 +1,5 @@
+//a finalizar
+
 package lacoCondicional;
 
 import java.util.Scanner;
