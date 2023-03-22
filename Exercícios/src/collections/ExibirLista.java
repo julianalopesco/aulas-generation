@@ -29,6 +29,6 @@ public class ExibirLista {
 	System.out.println("\nListar todas as cores"+cores);
 
     Collections.sort(cores, String.CASE_INSENSITIVE_ORDER);
-    System.out.println("\nOrdenar as cores"+cores);
+    System.out.println("\nCores ordenadas: "+cores);
 	}
 }
