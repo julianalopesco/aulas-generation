@@ -1,4 +1,3 @@
-//a finalizar 
 package vetorMatriz;
 
 import java.util.Scanner;
@@ -27,12 +26,11 @@ public class matrizMediasNotas {
 			}
 			mediaParticipante /= 4;
 			medias[participante] = mediaParticipante;
-			System.out.println("Média do participante " + (participante + 1) + ": " + mediaParticipante);
 		}
 
 		System.out.println("Médias dos participantes:");
 		for (participante = 0; participante < 10; participante++) {
-			System.out.print("| "+medias[participante]);
+			System.out.print(" | "+medias[participante]);
 		}
 	}
 }
