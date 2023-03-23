@@ -1,3 +1,6 @@
+//Escreva um algoritmo em Java, que leia 10 números inteiros via teclado e mostre na tela quantos números são pares e quantos número são ímpares. Veja o exemplo abaixo:
+
+
 package lacoDoWhile;
 
 import java.util.Scanner;
