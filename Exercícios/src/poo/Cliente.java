@@ -1,12 +1,12 @@
 package poo;
-public class Clientes {
+public class Cliente {
 	private String nome;
 	private String email;
 	private String genero;
 	private String endereco;
 	private long CPF;
 
-	public Clientes(String nome, String email, String genero, String endereco, long CPF) {
+	public Cliente(String nome, String email, String genero, String endereco, long CPF) {
 		super();
 		this.nome = nome;
 		this.email = email;
