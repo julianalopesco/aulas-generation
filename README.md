@@ -13,3 +13,4 @@ Java:
 Banco de dados: 
 
 - tabelas SQL
+- requisições
