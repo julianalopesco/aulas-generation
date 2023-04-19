@@ -100,3 +100,9 @@ SELECT * FROM tb_produtos ORDER BY nome;
 SELECT * FROM tb_produtos ORDER BY nome DESC; -- ordem descrecente 
 
 SELECT * FROM tb_produtos WHERE nome LIKE "c%"; -- palavras que comecem com a letra C
+
+ -- fazendo o join 
+ 
+ SELECT * FROM tb_produtos INNER JOIN tb_categorias 
+ ON tb_produtos.categoria_id = tb_categorias.id 
+ WHERE tb_categorias.id=1;
