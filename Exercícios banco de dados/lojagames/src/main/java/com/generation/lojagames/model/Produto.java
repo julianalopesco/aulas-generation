@@ -1,6 +1,7 @@
 package com.generation.lojagames.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.generation.lojagames.model.Usuario;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -41,6 +42,10 @@ public class Produto {
 	@ManyToOne 
 	@JsonIgnoreProperties("produto") 
 	private Categoria categoria;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("produto")
+	private Usuario usuario;
 
 	public Long getId() {
 		return id;
